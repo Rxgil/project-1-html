@@ -1,18 +1,153 @@
+body{
+    background: #eaeaea;
+
+}
+body,* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .flex-container {
     display:flex;
-    width: 1200px;
-    margin: auto;
+    width: 72vw;
+    margin: 6% auto 6% auto;
 }
-
-img {
+.img-1 {
     max-width: 100%;
+    width: 1200;
+    margin:0
+    
+}
+.div-1 {
+    overflow: hidden;
+    width: 50%;
+    padding: 10% 0;
+    max-width: 50%;
+    flex: 1;
+}
+.div-1 h1 {
+    /* margin-top: -40px; */
+    margin: 0;
+    font-size: 4em;
 }
 
-
-.right-align {
-    text-align: right;
+.div-1 .img-1{
+    height: 50vh;
 }
-
-header ul li {
+.div-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.img-cls {
+    width: 100%;
+}
+div.img-cls img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header ul {
+    padding: 0 0 0 12px;
+    margin: 0 0 20px 0;
+    
+}
+nav ul.left{
+    display: flex;
+    float: left;
+    margin: 0 12% 0 12%;
+}
+nav ul.right{
+    display: flex;
+    float: right;
+    margin: 0 12% 0 12%;
+}
+nav ul.left li a:hover,nav ul.right li a:hover{
+    border-bottom:solid 3px #fff;
+    /* color:#E44D26; */
+    padding: 27px 30px;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    transition: ease 0.3s;
+}
+nav ul.left li a,nav ul.right li a{
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul.left li,nav ul.right li {
+    display: flex;
     list-style: none;
+}
+.nav-1 {
+    top: 0;
+    text-align: center;
+    /* margin: 40px; */
+    position: fixed;
+    width: 100vw;
+    background-color: #E44D26;  /* fallback for old browsers */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.btn {
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    border: 2px solid gray;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+.flex-container {
+    display:flex;
+    width: 72vw;
+    margin: 6% auto 6% auto;
+}
+.img-2 {
+    max-width: 100%;
+    width: 1200;
+    margin:0
+}
+.div-2 {
+    overflow: hidden;
+    width: 50%;
+    padding: 10% 0;
+    max-width: 50%;
+    flex: 1;
+}
+.div-2 h2{
+    margin: 0;
+    font-size: 4em;
+}
+
+.div-2 .img-2{
+    height: 50vh;
+}
+.div-2 img-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.flex-container {
+    display:flex;
+    width: 72vw;
+    margin: 6% auto 6% auto;
+}
+
+.div-3 {
+    overflow: hidden;
+    width: 50%;
+    padding: 10% 0;
+    max-width: 50%;
+    flex: 1;
+}
+.img-3 {
+    max-width: 100%;
+    width: 1200;
+    margin:0
+    
 }
